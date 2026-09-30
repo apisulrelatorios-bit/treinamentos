@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#071b31" />
+  <title>Portal de Treinamentos | Apisul</title>
+  <meta name="description" content="Portal de treinamentos Apisul — vídeos, materiais e avaliações." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <header class="topbar" id="top">
+    <a class="brand" href="#inicio" aria-label="Ir para o início">
+      <img src="assets/Horizontal_Branco_sem_fundo2877866433154226.png" alt="Grupo Apisul" />
+      <span class="brand-divider"></span>
+      <span class="brand-name">TREINAMENTOS</span>
+    </a>
+
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#trilhas">Treinamentos</a>
+      <a href="#recursos">Recursos</a>
+      <a href="#avaliacoes">Avaliações</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow"><i></i> PORTAL DE APRENDIZAGEM</span>
+        <h1>Aprenda. <span>Pratique.</span><br />Evolua na operação.</h1>
+        <p>
+          Um ambiente moderno para acessar os treinamentos, assistir aos vídeos
+          e avançar com mais autonomia nos processos da operação.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#trilhas">
+            <span class="play-icon">▶</span>
+            Começar treinamento
+          </a>
+          <a class="btn btn-ghost" href="#avaliacoes">Ver avaliações</a>
+        </div>
+        <div class="hero-proof">
+          <div class="proof-item"><strong>08</strong><span>treinamentos</span></div>
+          <div class="proof-line"></div>
+          <div class="proof-item"><strong>100%</strong><span>online</span></div>
+          <div class="proof-line"></div>
+          <div class="proof-item"><strong>24h</strong><span>acesso</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-glow"></div>
+        <div class="hero-card hero-card-main">
+          <div class="mini-top">
+            <span class="mini-dot live"></span>
+            <span>Treinamento em andamento</span>
+            <span class="mini-time">●</span>
+          </div>
+          <div class="hero-video-placeholder">
+            <div class="video-orb">
+              <span>▶</span>
+            </div>
+            <div class="scanline"></div>
+          </div>
+          <div class="hero-card-info">
+            <div>
+              <small>PRÓXIMA AULA</small>
+              <strong>Programação de Carga</strong>
+            </div>
+            <span class="progress-pill">75%</span>
+          </div>
+          <div class="progress"><span style="width:75%"></span></div>
+        </div>
+
+        <div class="floating-card floating-a">
+          <span class="float-icon">✓</span>
+          <div><small>Checklist</small><strong>Concluído</strong></div>
+        </div>
+        <div class="floating-card floating-b">
+          <span class="float-icon">▣</span>
+          <div><small>Conteúdos</small><strong>8 módulos</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro" id="trilhas">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow"><i></i> TRILHA DE TREINAMENTO</span>
+          <h2>Escolha por onde começar</h2>
+        </div>
+        <div class="search-wrap">
+          <span>⌕</span>
+          <input id="searchInput" type="search" placeholder="Buscar treinamento..." aria-label="Buscar treinamento" />
+        </div>
+      </div>
+
+      <div class="filter-row" role="tablist" aria-label="Filtros de treinamento">
+        <button class="filter active" data-filter="todos">Todos</button>
+        <button class="filter" data-filter="cadastro">Cadastros</button>
+        <button class="filter" data-filter="operacao">Operação</button>
+        <button class="filter" data-filter="smp">SMP</button>
+      </div>
+
+      <div class="training-grid" id="trainingGrid"></div>
+      <p class="empty-state" id="emptyState" hidden>Nenhum treinamento encontrado.</p>
+    </section>
+
+    <section class="section showcase" id="recursos">
+      <div class="showcase-panel">
+        <div class="showcase-copy">
+          <span class="eyebrow"><i></i> EXPERIÊNCIA DIGITAL</span>
+          <h2>Conteúdo organizado para você encontrar o que precisa.</h2>
+          <p>
+            A estrutura foi pensada a partir do material do Power BI: conteúdo,
+            vídeos, manual e avaliações em um único lugar, com navegação simples
+            e foco no aprendizado.
+          </p>
+          <div class="feature-list">
+            <div><span>01</span><b>Vídeos práticos</b><small>Aulas objetivas direto da operação.</small></div>
+            <div><span>02</span><b>Material de apoio</b><small>Referências para consultar durante o processo.</small></div>
+            <div><span>03</span><b>Avaliações</b><small>Valide seus conhecimentos ao final da trilha.</small></div>
+          </div>
+        </div>
+        <div class="showcase-art">
+          <div class="art-ring ring-one"></div>
+          <div class="art-ring ring-two"></div>
+          <img src="assets/Treinamento_Apisullog.png" alt="Ilustração de cadastros" />
+          <div class="art-badge"><span>✦</span> APRENDIZADO CONTÍNUO</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section assessments" id="avaliacoes">
+      <div class="assessment-copy">
+        <span class="eyebrow"><i></i> AVALIAÇÕES</span>
+        <h2>Hora de colocar o conhecimento em prática.</h2>
+        <p>
+          Depois de concluir os conteúdos, acesse a avaliação correspondente à
+          sua trilha e registre seu aprendizado.
+        </p>
+        <div class="assessment-actions">
+          <a class="btn btn-primary" href="https://forms.cloud.microsoft/pages/responsepage.aspx?id=ccAe4kJn_0igTOHQ7bm-Pi5VxBvmhVZOpjVYwdH3e-lUMFJXUU1DWUZEVTk2MjZENU5KSkpYN0ZSQiQlQCN0PWcu&origin=lprLink&route=shorturl" target="_blank" rel="noopener">Avaliação de Cadastros ↗</a>
+          <!--<a class="btn btn-ghost" href="https://forms.office.com/r/NXAyXr29AE" target="_blank" rel="noopener">Avaliação Rastreador ↗</a> -->
+          
+        </div>
+      </div>
+  <!--  <div class="assessment-card">
+        <div class="assessment-image">
+          <img src="assets/Provas6846674728170914.png" alt="Avaliações" />
+        </div>
+        <div class="assessment-meta">
+          <span class="status-dot"></span>
+          <div><small>STATUS</small><strong>Pronto para avaliar</strong></div>
+          <span class="arrow">→</span> 
+        </div>
+      </div> -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <img src="assets/Horizontal_Branco_sem_fundo2877866433154226.png" alt="Grupo Apisul" />
+      <p>Portal de Treinamentos</p>
+    </div>
+    <div class="footer-right">
+      <span>Material desenvolvido para apoiar a capacitação operacional.</span>
+      <a href="#top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <div class="modal" id="videoModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Fechar">×</button>
+      <div class="modal-head">
+        <div>
+          <span class="eyebrow"><i></i> AULA</span>
+          <h3 id="modalTitle">Treinamento</h3>
+        </div>
+        <a id="githubLink" href="https://github.com/apisulpowerbi-web/videosApisul" target="_blank" rel="noopener"></a> <!--Ver no GitHub ↗-->
+      </div>
+      <div class="video-frame">
+        <video id="trainingVideo" controls playsinline preload="metadata"></video>
+        <div class="video-fallback" id="videoFallback">
+          <span>▶</span>
+          <p>O vídeo não pôde ser carregado automaticamente.</p>
+          <a id="rawLink" href="#" target="_blank" rel="noopener">Abrir vídeo</a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p id="modalDescription"></p>
+        <div class="modal-tags" id="modalTags"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
